@@ -1,0 +1,21 @@
+.favorites {
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.favorites-message {
+  max-width: 720px;
+  margin: 0 auto 1rem;
+  padding: 10px 12px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background: #fff;
+  color: #333;
+}
+
+.favorites-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 1rem;
+}

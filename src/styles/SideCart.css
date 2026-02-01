@@ -1,0 +1,15 @@
+.SideCart {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 320px;
+  height: 100vh;
+  background: #fff;
+  border-left: 1px solid #eee;
+  padding: 12px;
+  box-shadow: -4px 0 12px rgba(0,0,0,0.04);
+}
+
+.SideCart .items {
+  margin-top: 12px;
+}

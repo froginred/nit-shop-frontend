@@ -1,0 +1,22 @@
+.custom-link {
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.custom-link.active {
+  color: black;
+  font-weight: bold;
+}
+
+.custom-link:hover {
+  text-shadow: 0 0 5px black;
+}
+
+.custom-link.navbar-logo {
+  color: black;
+}
+.custom-link.navbar-logo:hover {
+  color: black;
+}

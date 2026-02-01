@@ -1,0 +1,8 @@
+.Orders {
+  padding: 18px;
+}
+
+.orders-list {
+  display: grid;
+  gap: 12px;
+}

@@ -1,0 +1,29 @@
+.admin-form-wrapper {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 16px;
+  background: white;
+}
+
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.admin-form input, .admin-form textarea, .admin-form select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.admin-form textarea {
+  min-height: 70px;
+  resize: vertical;
+}
+
+.admin-form-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}

@@ -1,0 +1,14 @@
+.ItemPage {
+  padding: 20px;
+}
+
+.ItemPage .gallery {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 18px;
+}
+
+.ItemPage .description {
+  line-height: 1.5;
+  color: #444;
+}

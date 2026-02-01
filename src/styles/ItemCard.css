@@ -1,0 +1,18 @@
+.ItemCard {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.ItemCard img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.ItemCard .meta {
+  padding: 12px;
+}
